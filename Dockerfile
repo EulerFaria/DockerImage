@@ -8,7 +8,7 @@ RUN pip3 install scikit-learn
 RUN pip3 install deap
 RUN pip3 install pandas
 RUN pip3 install seaborn
-RUN pip3 install opencv-python==3.5.2
+RUN pip3 install opencv-python==3.4.0.12
 RUN pip3 install -U bcolz
 RUN pip3 install graphviz
 RUN pip3 install tdqm
