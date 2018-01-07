@@ -1,7 +1,7 @@
 FROM tensorflow/tensorflow:latest-gpu-py3
 MAINTAINER Euler Rodrigues de Sousa Faria <eulerodriguesousa@gmail.com>
 RUN apt-get update
-RUN apt-get install libsm6 libxrender1 libfontconfig1’
+RUN apt-get install libsm6 
 RUN pip3 install numpy
 RUN pip3 install scipy
 RUN pip3 install matplotlib
@@ -9,7 +9,7 @@ RUN pip3 install scikit-learn
 RUN pip3 install deap
 RUN pip3 install pandas
 RUN pip3 install seaborn
-RUN pip3 install opencv-python==3.4.0.12
+RUN pip3 install opencv-contrib-python
 RUN pip3 install -U bcolz
 RUN pip3 install graphviz
 RUN pip3 install sklearn_pandas
