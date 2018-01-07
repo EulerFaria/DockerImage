@@ -1,7 +1,6 @@
 FROM tensorflow/tensorflow:latest-gpu-py3
 MAINTAINER Euler Rodrigues de Sousa Faria <eulerodriguesousa@gmail.com>
 RUN apt-get update
-RUN pip3 uninstall opencv-contrib-python
 RUN pip3 install numpy
 RUN pip3 install scipy
 RUN pip3 install matplotlib
