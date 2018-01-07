@@ -1,6 +1,7 @@
 FROM tensorflow/tensorflow:latest-gpu-py3
 MAINTAINER Euler Rodrigues de Sousa Faria <eulerodriguesousa@gmail.com>
 RUN apt-get update
+RUN apt-get install libgtk2.0-dev
 RUN pip3 install numpy
 RUN pip3 install scipy
 RUN pip3 install matplotlib
