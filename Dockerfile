@@ -17,3 +17,4 @@ RUN pip3 install http://download.pytorch.org/whl/cu80/torch-0.3.0.post4-cp35-cp3
 RUN pip3 install torchvision
 RUN pip3 install tqdm
 RUN pip3 install isoweek
+RUN pip3 install pandas_summary
