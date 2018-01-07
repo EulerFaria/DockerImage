@@ -11,7 +11,7 @@ RUN pip3 install seaborn
 RUN pip3 install opencv-python==3.4.0.12
 RUN pip3 install -U bcolz
 RUN pip3 install graphviz
-RUN pip3 install tdqm
 RUN pip3 install sklearn_pandas
 RUN pip3 install http://download.pytorch.org/whl/cu80/torch-0.3.0.post4-cp35-cp35m-linux_x86_64.whl 
 RUN pip3 install torchvision
+RUN pip install tdqm
