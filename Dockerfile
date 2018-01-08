@@ -2,6 +2,8 @@
 FROM ubuntu:16.04
 MAINTAINER Euler Rodrigues de Sousa Faria <eulerodriguesousa@gmail.com>
 
+RUN apt-get update
+RUN apt-get install -y software-properties-common vim
 RUN add-apt-repository ppa:jonathonf/python-3.6
 
 RUN apt-get update && apt-get install -y --no-install-recommends apt-utils 
