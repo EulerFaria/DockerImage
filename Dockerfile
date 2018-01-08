@@ -1,5 +1,5 @@
-#FROM tensorflow/tensorflow:latest-gpu-py3
-FROM ubuntu:16.04
+FROM tensorflow/tensorflow:latest-gpu-py3
+#FROM ubuntu:16.04
 MAINTAINER Euler Rodrigues de Sousa Faria <eulerodriguesousa@gmail.com>
 
 RUN apt-get update
