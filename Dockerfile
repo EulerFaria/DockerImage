@@ -1,4 +1,5 @@
-FROM tensorflow/tensorflow:latest-gpu-py3
+#FROM tensorflow/tensorflow:latest-gpu-py3
+FROM ubuntu:16.04
 MAINTAINER Euler Rodrigues de Sousa Faria <eulerodriguesousa@gmail.com>
 
 RUN add-apt-repository ppa:jonathonf/python-3.6
