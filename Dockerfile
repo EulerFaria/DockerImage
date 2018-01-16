@@ -18,5 +18,4 @@ RUN apt install libxext6
 RUN pip3 install http://download.pytorch.org/whl/cu80/torch-0.3.0.post4-cp36-cp36m-linux_x86_64.whl 
 RUN pip3 install torchvision
 RUN pip3 install fastai
-RUN pip install ipywidgets
-RUN jupyter nbextension enable --py widgetsnbextension 
+RUN pip3 instal kaggle -cli
